@@ -1,26 +1,61 @@
 <!DOCTYPE html>
-<!--My Business Card-->
 <html lang="en">
-  
   <head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Business Card</title>
-    <link rel ="stylesheet" href='biz.css'>
+
+    <link href="bootstrap.css" rel="stylesheet">
+    <link href="main.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="hover.zoom.js"></script>
+    <script src="hover.zoom.conf.js"></script>
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
   </head>
+
   <body>
-    <h1>Nicholas Narh</h1>
-   <div class="about">
-    <p>This is where  I will talk about my journeys in becoming a software developer!</p>
-   </div>
-    <!--Why I decided to code, my experiences, interests, and hope to accomplish-->
-    <ul>
-      <div class="click">
-        <li><a href="mailto:nicknarh@gmail.com"target="_blank">Email</a>
+
+   
+    <div class="navbar navbar-inverse navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Nicholas Narh</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="https://github.com/WalmartFiend">Github</a></li>
+            <li><a href="http://www.linkedin.com/pub/nicholas-narh/26/635/57a">Linkedin</a></li>
+            <li><a href="mailto:nicknarh@gmail.com">Email</a></li>
+          </ul>
+        </div>
       </div>
-      <div class="contacts">
-        <li><a href="http://www.linkedin.com/pub/nicholas-narh/26/635/57a" target="_blank"><img src="https://static.licdn.com/scds/common/u/img/webpromo/btn_viewmy_160x33.png"width="160" height="33" border="0" alt="View Nicholas Narh's profile on LinkedIn"></a>
-        <li><a href="https://github.com/WalmartFiend" target="_blank"><img src="Octocat.png" alt="Octocat" width="160" height="160"></a>
-      </div>
-    </ul>
+    </div>
+
+	<div id="ww">
+	    <div class="container">
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2 centered">
+					<img src="suitntie.jpg" alt="Zim">
+					<h1>Allow me to Introduce myself.</h1>
+					<p>My name is Nicholas Narh and I will be attending the inaugural NYC cohort for <a href="http://www.thisismetis.com">Metis</a>, a Ruby on Rails bootcamp with ties to one of the most well-known Ruby Shops in Boston; Thoughtbot. I want to become a full-stack software developer and I believe that Metis will help guide me to that goal.</p><p>I am  a strong believer that practice and putting in the hours can help anyone attain their goal and hopefully can prove that after this course is finished.</p> <p>I currently work as an entry level programmer but I spend about 90 % of my time looking at sql databases rather than getting to look at actual code. I took it upon myself to start learning a programming language that I was interesting. I stumbled upon the Ruby and have been enamored with the language, community, and framework ever since.</p>
+
+				</div>
+			</div>
+	    </div> 
+	</div>
+	
+    <script src="assets/js/bootstrap.min.js"></script>
   </body>
 </html>
